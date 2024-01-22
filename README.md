@@ -27,7 +27,7 @@ Nesta aula, você vai:
 
 ### Desafios da aula
 
-- Construa a aba “Sua biblioteca”
+- Construa a aba “Sua biblioteca” - Ok
 
 ## Dicas
 
