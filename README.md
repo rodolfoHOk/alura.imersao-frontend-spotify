@@ -28,3 +28,7 @@ Nesta aula, você vai:
 ### Desafios da aula
 
 - Construa a aba “Sua biblioteca”
+
+### Dicas
+
+- vs-code criar html básico: ! depois ENTER
