@@ -9,6 +9,8 @@ body {
   bottom: 0;
   padding: 8px;
   width: 420px;
+  display: flex;
+  flex-direction: column;
 }
 
 .sidebar__navigation {
@@ -51,4 +53,125 @@ body {
 
 .sidebar__navigation ul li a .navigation__icon {
   font-size: 24px;
+}
+
+.your__library {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  background-color: #121212;
+  margin: 8px 0 0 0;
+  border-radius: 8px;
+}
+
+.your__library .library__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  margin: 8px 16px;
+  padding: 4px 8px;
+}
+
+.your__library .library__header a {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  color: #b3b3b3;
+  font-weight: 700;
+  font-size: 16px;
+  font-family: "DM Sans", sans-serif;
+}
+
+.your__library .library__header .library__icon {
+  font-size: 20px;
+}
+
+.your__library .library__header button {
+  height: 32px;
+  width: 32px;
+  background-color: #121212;
+  border-radius: 100%;
+  font-size: 16px;
+  color: #b3b3b3;
+}
+
+.your__library .library__header button:hover {
+  background-color: #1a1a1a;
+}
+
+.your__library .library__card {
+  margin: 8px;
+  padding: 16px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 8px;
+  background-color: #242424;
+  color: #fff;
+}
+
+.your__library .library__card .card__content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.your__library .library__card .card__content h3 {
+  line-height: normal;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.your__library .library__card .card__content p {
+  line-height: normal;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.your__library .library__card .card__actions button {
+  height: 32px;
+  padding: 4px 16px;
+  font-size: 14px;
+  font-weight: 700;
+  border-style: none;
+  border-radius: 9999px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown .dropdown__content {
+  display: none;
+  position: absolute;
+  min-width: 164px;
+  z-index: 10;
+  background-color: #242424;
+  border-radius: 4px;
+  box-shadow: 0 16px 24px rgba(0,0,0,.3), 0 6px 8px rgba(0,0,0,.2);
+  padding: 4px;
+}
+
+.dropdown .dropdown__content ul li button {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #fff;
+  border-radius: 2px;
+  padding: 0 6px 0 12px;
+  font-size: 14px;
+  background-color: #242424;
+}
+
+.dropdown .dropdown__content ul li button:hover {
+  background-color: #363636;
+}
+
+.dropdown .show-dropdown-content {
+  display: block;
 }

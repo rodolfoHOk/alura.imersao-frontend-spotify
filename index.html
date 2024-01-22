@@ -11,6 +11,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,600;9..40,700;9..40,900&display=swap" rel="stylesheet">
+  <script src="script.js"></script>
 </head>
 <body>
   <div class="sidebar">
@@ -20,6 +21,7 @@
           <img src="./assets/icons/logo-spotify.png" alt="logo do Spotify">
         </a>
       </div>
+
       <div>
         <ul>
           <li>
@@ -28,6 +30,7 @@
               <span>Início</span>
             </a>
           </li>
+
           <li>
             <a href="#">
               <span class="fas fa-search navigation__icon"></span>
@@ -37,6 +40,52 @@
         </ul>
       </div>
     </nav>
+
+    <div class="your__library">
+      <div class="library__header">
+        <a href="#">
+          <span class="fas fa-stream library__icon"></span>
+          <span>Sua Biblioteca</span>
+        </a>
+        <div class="dropdown">
+          <button class="dropdown__button" onclick="onClickDropDownButton()">
+            <span class="fas fa-plus"></span>
+          </button>
+          <div id="add_playlist_dropdown" class="dropdown__content">
+            <ul>
+              <li>
+                <button>
+                  <span class="fas fa-th-list"></span>
+                  <span>Criar nova playlist</span>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="library__card">
+          <div class="card__content">
+            <h3>Crie sua primeira playlist</h3>
+            <p>É fácil, vamos te ajudar.</p>
+          </div>
+          <div class="card__actions">
+            <button>Criar playlist</button>
+          </div>
+        </div>
+
+        <div class="library__card">
+          <div class="card__content">
+            <h3>Que tal criar um podcast novo?</h3>
+            <p>Avisaremos você sobre novos episódios.</p>
+          </div>
+          <div class="card__actions">
+            <button>Explore podcasts</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </body>
 </html>
