@@ -2,6 +2,53 @@ body {
   background-color: #000;
 }
 
-h1 {
-  color: #FFF;
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  padding: 8px;
+  width: 420px;
+}
+
+.sidebar__navigation {
+  background-color: #121212;
+  border-radius: 8px;
+}
+
+.sidebar__navigation .logo {
+  display: flex;
+}
+
+.logo a {
+  margin-top: 20px;
+  padding: 0 24px;
+}
+
+.logo a img {
+  height: 24px;
+}
+
+.sidebar__navigation ul {
+  padding: 8px 12px;
+}
+
+.sidebar__navigation ul li {
+  padding: 4px 12px;
+}
+
+.sidebar__navigation ul li a {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  text-decoration: none;
+  color: #b3b3b3;
+  font-weight: 700;
+  font-size: 16px;
+  font-family: "DM Sans", sans-serif;
+}
+
+.sidebar__navigation ul li a .navigation__icon {
+  font-size: 24px;
 }

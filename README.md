@@ -29,6 +29,7 @@ Nesta aula, você vai:
 
 - Construa a aba “Sua biblioteca”
 
-### Dicas
+## Dicas
 
 - vs-code criar html básico: ! depois ENTER
+- vs-code criar ul com li's: ul>li*2 depois ENTER
