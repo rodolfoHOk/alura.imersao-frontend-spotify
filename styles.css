@@ -75,6 +75,11 @@ body {
   font-weight: 700;
   font-size: 16px;
   font-family: "DM Sans", sans-serif;
+  transition-duration: 200ms;
+}
+
+.sidebar__navigation ul li a:hover {
+  color: #fff;
 }
 
 .sidebar__navigation ul li a .navigation__icon {
@@ -110,6 +115,11 @@ body {
   font-family: "DM Sans", sans-serif;
   text-decoration: none;
   text-transform: none;
+  transition-duration: 200ms;
+}
+
+.your-library .library__header a:hover {
+  color: #fff;
 }
 
 .your-library .library__header .library__icon {
@@ -125,9 +135,11 @@ body {
   color: #b3b3b3;
   font-size: 16px;
   font-weight: 300;
+  transition-duration: 200ms;
 }
 
 .your-library .library__header button:hover {
+  color: #fff;
   background-color: #1a1a1a;
 }
 
@@ -185,6 +197,12 @@ body {
   border-radius: 9999px;
   background-color: #fff;
   color: #000;
+  transition-duration: 200ms;
+}
+
+.section-playlist__card .section-playlist__button:hover {
+  background-color: #e8e8e8;
+  transform: scale(1.05);
 }
 
 .dropdown {
@@ -256,6 +274,12 @@ body {
   font-family: "DM Sans", sans-serif;
   font-weight: bold;
   padding: 8px 16px;
+  transition-duration: 200ms;
+}
+
+.languages .languages__button:hover {
+  border: 1px solid #fff;
+  transform: scale(1.05);
 }
 
 .languages__button .fa {
@@ -300,12 +324,12 @@ body {
   font-weight: 700;
   border: 0;
   border-radius: 9999px;
-  transition-duration: 100ms;
+  transition-duration: 200ms;
   background-color: #fff;
   color: #000;
 }
 
 .footer__banner .footer__banner__button:hover {
-  background-color: #e5e5e5;
+  background-color: #e8e8e8;
   transform: scale(1.05);
 }
