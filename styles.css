@@ -25,7 +25,8 @@ body {
   grid-row-start: 1;
   grid-column-start: 2;
   margin: 8px 8px 0 0;
-  color: red;
+  background-color: #121212;
+  border-radius: 8px;
 }
 
 .footer {
@@ -36,13 +37,11 @@ body {
   height: 66px;
   margin: 0 8px 8px 8px;
   display: flex;
-  color: red;
 }
 
 .sidebar__navigation {
   background-color: #121212;
   border-radius: 8px;
-  color: red;
 }
 
 .sidebar__navigation .logo {
@@ -261,4 +260,52 @@ body {
 
 .languages__button .fa {
   font-size: 16px;
+}
+
+.footer .footer__banner {
+  width: 100%;
+  background-image: linear-gradient(90deg,#af2896,#509bf5);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 11px 24px 7px 15px;
+}
+
+.footer__banner .footer__banner__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+}
+
+.footer__banner__content .text {
+  color: #fff;
+  line-height: normal;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.footer__banner__content .title {
+  font-size: 12;
+  font-weight: 700;
+}
+
+.footer__banner .footer__banner__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 28px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  border: 0;
+  border-radius: 9999px;
+  transition-duration: 100ms;
+  background-color: #fff;
+  color: #000;
+}
+
+.footer__banner .footer__banner__button:hover {
+  background-color: #e5e5e5;
+  transform: scale(1.05);
 }
