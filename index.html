@@ -14,88 +14,98 @@
   <script src="script.js"></script>
 </head>
 <body>
-  <div class="sidebar">
-    <nav class="sidebar__navigation">
-      <div class="logo">
-        <a href="#">
-          <img src="./assets/icons/logo-spotify.png" alt="logo do Spotify">
-        </a>
-      </div>
-
-      <ul>
-        <li>
+  <div class="main-layout">
+    <div class="sidebar">
+      <nav class="sidebar__navigation">
+        <div class="logo">
           <a href="#">
-            <span class="fas fa-home navigation__icon"></span>
-            <span>Início</span>
+            <img src="./assets/icons/logo-spotify.png" alt="logo do Spotify">
           </a>
-        </li>
-        <li>
-          <a href="#">
-            <span class="fas fa-search navigation__icon"></span>
-            <span>Buscar</span>
-          </a>
-        </li>
-      </ul>
-    </nav>
-
-    <div class="your-library">
-      <div>
-        <div class="library__header">
-          <a href="#">
-            <span class="fas fa-book library__icon"></span>
-            <span>Sua Biblioteca</span>
-          </a>
-          <div class="dropdown">
-            <button class="dropdown__button" onclick="onClickDropDownButton()">
-              <span class="fas fa-plus"></span>
-            </button>
-            <div id="add_playlist_dropdown" class="dropdown__content">
-              <ul>
-                <li>
-                  <button>
-                    <span class="fas fa-th-list"></span>
-                    <span>Criar nova playlist</span>
-                  </button>
-                </li>
-              </ul>
-            </div>
-          </div>
         </div>
 
-        <section class="section-playlist">
-          <div class="section-playlist__card">
-            <div class="card__content">
-              <span class="text title">Crie sua primeira playlist</span>
-              <span class="text subtitle">É fácil, vamos te ajudar.</span>
+        <ul>
+          <li>
+            <a href="#">
+              <span class="fas fa-home navigation__icon"></span>
+              <span>Início</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="fas fa-search navigation__icon"></span>
+              <span>Buscar</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="your-library">
+        <div>
+          <div class="library__header">
+            <a href="#">
+              <span class="fas fa-book library__icon"></span>
+              <span>Sua Biblioteca</span>
+            </a>
+            <div class="dropdown">
+              <button class="dropdown__button" onclick="onClickDropDownButton()">
+                <span class="fas fa-plus"></span>
+              </button>
+              <div id="add_playlist_dropdown" class="dropdown__content">
+                <ul>
+                  <li>
+                    <button>
+                      <span class="fas fa-th-list"></span>
+                      <span>Criar nova playlist</span>
+                    </button>
+                  </li>
+                </ul>
+              </div>
             </div>
-            <button class="section-playlist__button">
-              <span>Criar playlist</span>
-            </button>
           </div>
 
-          <div class="section-playlist__card">
-            <div class="card__content">
-              <span class="text title">Que tal criar um podcast novo?</span>
-              <span class="text subtitle">Avisaremos você sobre novos episódios.</span>
+          <section class="section-playlist">
+            <div class="section-playlist__card">
+              <div class="card__content">
+                <span class="text title">Crie sua primeira playlist</span>
+                <span class="text subtitle">É fácil, vamos te ajudar.</span>
+              </div>
+              <button class="section-playlist__button">
+                <span>Criar playlist</span>
+              </button>
             </div>
-            <button class="section-playlist__button">
-              <span>Explore podcasts</span>
-            </button>
-          </div>
-        </section>
-      </div>
 
-      <div class="cookies">
-        <a href="#">Cookies</a>
-      </div>
+            <div class="section-playlist__card">
+              <div class="card__content">
+                <span class="text title">Que tal criar um podcast novo?</span>
+                <span class="text subtitle">Avisaremos você sobre novos episódios.</span>
+              </div>
+              <button class="section-playlist__button">
+                <span>Explore podcasts</span>
+              </button>
+            </div>
+          </section>
+        </div>
 
-      <div class="languages">
-        <button class="languages__button">
-          <span class="fa fa-globe"></span>
-          <span>Português do Brasil</span>
-        </button>
+        <div class="cookies">
+          <a href="#">Cookies</a>
+        </div>
+
+        <div class="languages">
+          <button class="languages__button">
+            <span class="fa fa-globe"></span>
+            <span>Português do Brasil</span>
+          </button>
+        </div>
       </div>
     </div>
+
+    <main class="main-content">
+      <span>Main to do</span>
+    </main>
+
+    <footer class="footer">
+      <span>Footer to do</span>
+    </footer>
   </div>
 </body>
 </html>

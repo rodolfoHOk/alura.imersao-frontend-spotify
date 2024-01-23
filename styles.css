@@ -2,20 +2,47 @@ body {
   background-color: #000;
 }
 
+.main-layout {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 428px 1fr;
+  grid-template-rows: 1fr 74px;
+  row-gap: 8px;
+  column-gap: 8px;
+}
+
 .sidebar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  padding: 8px;
+  margin: 8px 0 0 8px;
+  grid-row-start: 1;
+  grid-column-start: 1;
   width: 420px;
   display: flex;
   flex-direction: column;
 }
 
+.main-content {
+  grid-row-start: 1;
+  grid-column-start: 2;
+  margin: 8px 8px 0 0;
+  color: red;
+}
+
+.footer {
+  grid-row-start: 2;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  width: calc(100% - 16px);
+  height: 66px;
+  margin: 0 8px 8px 8px;
+  display: flex;
+  color: red;
+}
+
 .sidebar__navigation {
   background-color: #121212;
   border-radius: 8px;
+  color: red;
 }
 
 .sidebar__navigation .logo {
