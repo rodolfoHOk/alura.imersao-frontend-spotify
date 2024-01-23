@@ -45,7 +45,7 @@ Nesta aula, você vai:
 
 ### Desafios da aula
 
-- Fazer a tag footer (brinque com o botão, faça o gradiente, etc).
+- Fazer a tag footer (brinque com o botão, faça o gradiente, etc) - Ok
 
 ## Dicas
 
