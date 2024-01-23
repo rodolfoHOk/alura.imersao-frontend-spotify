@@ -29,6 +29,24 @@ Nesta aula, você vai:
 
 - Construa a aba “Sua biblioteca” - Ok
 
+## Aula 2 - Estilo Avançado e Posicionamento: Transformando Layouts
+
+Nesta aula, você vai:
+
+- Criar todo menu lateral da página;
+- Aprender os fundamentos do CSS Flexbox;
+- Saber mais sobre posicionamentos no CSS.
+
+### Links da aula
+
+- [CSS: seletores avançados que facilitam o desenvolvimento web](https://www.alura.com.br/artigos/css-seletores-avancados-aplicacoes-web?_gl=1*1sot7lg*_ga*MTMzNDM2OTg0Ni4xNzA1OTMwNjYx*_ga_1EPWSW3PCS*MTcwNjAxNzEzMi4zLjEuMTcwNjAxNzI3Mi4wLjAuMA..*_fplc*Ulo4U0xQV0dZViUyQmliVTN6eWFGaDA1NUFGQjBKUUYlMkJWTGZZQXc2S3NJNXRJdWxDa1dmd0lySkdPJTJCaThWeTU5Q2NuQzhnYUJCbmMzNmNobmplenAlMkZuUmRrNWxaVW9tcmlhbFI0UHpBNnoySW1malYxclZCWDRiMlpka3V0d0ElM0QlM0Q.)
+
+- [Guia de CSS Flexbox](https://www.alura.com.br/artigos/css-guia-do-flexbox?_gl=1*1o0pif0*_ga*MTMzNDM2OTg0Ni4xNzA1OTMwNjYx*_ga_1EPWSW3PCS*MTcwNjAxNzEzMi4zLjEuMTcwNjAxNzMxOC4wLjAuMA..*_fplc*Ulo4U0xQV0dZViUyQmliVTN6eWFGaDA1NUFGQjBKUUYlMkJWTGZZQXc2S3NJNXRJdWxDa1dmd0lySkdPJTJCaThWeTU5Q2NuQzhnYUJCbmMzNmNobmplenAlMkZuUmRrNWxaVW9tcmlhbFI0UHpBNnoySW1malYxclZCWDRiMlpka3V0d0ElM0QlM0Q.)
+
+### Desafios da aula
+
+- Fazer a tag (brinque com o botão, faça o gradiente, etc).
+
 ## Dicas
 
 - vs-code criar html básico: ! depois ENTER
