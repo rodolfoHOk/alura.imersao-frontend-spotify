@@ -40,7 +40,7 @@ body {
 }
 
 .sidebar__navigation {
-  background-color: #121212;
+  background-color: #061812;
   border-radius: 8px;
 }
 
@@ -92,7 +92,7 @@ body {
   flex: 1;
   flex-direction: column;
   justify-content: space-between;
-  background-color: #121212;
+  background-color: #061812;
   border-radius: 8px;
 }
 
@@ -156,7 +156,7 @@ body {
   flex-direction: column;
   gap: 20px;
   border-radius: 8px;
-  background-color: #242424;
+  background-color: #123624;
 }
 
 .section-playlist__card .card__content {
