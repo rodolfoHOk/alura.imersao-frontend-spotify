@@ -22,14 +22,6 @@ body {
   flex-direction: column;
 }
 
-.main-content {
-  grid-row-start: 1;
-  grid-column-start: 2;
-  margin: 8px 8px 0 0;
-  background-color: #121212;
-  border-radius: 8px;
-}
-
 .footer {
   grid-row-start: 2;
   grid-column-start: 1;

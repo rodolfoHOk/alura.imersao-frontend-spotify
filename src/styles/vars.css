@@ -1,5 +1,14 @@
 :root {
   /* FONT */
   --font-dm-sans: "DM Sans", sans-serif;
-  
+  /* COLORS */
+  --bg-main: #121212;
+  --bg-menu: #061812;
+  --bg-icon: #071913;
+  --bg-search: #123024;
+  --bg-arrow-color: rgba(0, 0, 0, 0.7);
+  --btn-subscribe-color: #a7a7a7;
+  --btm-login-color: #000;
+  /* BORDER RADIUS */
+  --main-border-radius: 8px;
 }
