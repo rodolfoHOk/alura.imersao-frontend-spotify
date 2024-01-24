@@ -5,7 +5,7 @@
   height: calc(100vh - 90px);
   margin: 8px 8px 0 0;
   background-color: var(--bg-main);
-  border-radius: var(--main-border-radius);
+  border-radius: var(--main-rounded);
 }
 
 .header__navigation {
@@ -14,8 +14,8 @@
   justify-content: space-between;
   align-items: center;
   padding: 8px 24px;
-  background-color: var(--bg-menu);
-  border-radius: var(--main-border-radius);
+  background-color: var(--bg-primary);
+  border-radius: var(--main-rounded);
 }
 
 .header__navigation .navigation {
@@ -37,7 +37,7 @@
   background: var(--bg-icon);
   background-color: var(--bg-arrow-color);
   border: none;
-  border-radius: 50%;
+  border-radius: var(--half-rounded);
   cursor: pointer;
 }
 
@@ -53,7 +53,7 @@
   height: 48px;
   margin-left: 8px;
   background-color: var(--bg-search);
-  border-radius: 999px;
+  border-radius: var(--full-rounded);
   border: 1px solid transparent;
 }
 
@@ -67,7 +67,7 @@
   background: transparent;
   border: none;
   padding: 0 100px 0 12px;
-  color: #fff;
+  color: var(--main-white);
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
@@ -81,13 +81,57 @@
   font-weight: 700;
   background-color: transparent;
   margin-right: 32px;
+  transition-duration: 200ms;
+}
+
+.header__login .subscribe:hover {
+  color: var(--bg-btn-primary);
+  transform: scale(1.05);
 }
 
 .header__login .login {
   width: 100px;
   height: 48px;
-  color: var(--btm-login-color);
+  color: var(--btn-main-color);
+  background-color: var(--bg-btn-primary);
   font-size: 16px;
   font-weight: 700;
-  border-radius: 24px;
+  border-radius: var(--full-rounded);
+  transition-duration: 200ms;
+}
+
+.header__login .login:hover {
+  background-color: var(--bg-btn-primary-hover);
+  transform: scale(1.05);
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  gap: 24px;
+} */
+
+.main-content .content__header {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.main-content .content__title {
+  color: var(--main-white);
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.main-content .content__section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.main-content .content__subtitle {
+  color: var(--main-white);
+  font-size: 1.5rem;
+  font-weight: 700;
 }

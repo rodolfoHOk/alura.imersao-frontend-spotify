@@ -2,13 +2,26 @@
   /* FONT */
   --font-dm-sans: "DM Sans", sans-serif;
   /* COLORS */
+  --main-white: #fff;
+  --main-black: #000;
+  --main-text-color: #b3b3b3;
   --bg-main: #121212;
-  --bg-menu: #061812;
+  --bg-primary: #061812;
+  --bg-secondary: #123624;
   --bg-icon: #071913;
   --bg-search: #123024;
+  --bg-btn-primary: #fff;
+  --bg-btn-secondary: #242424;
+  --bg-btn-primary-hover: #e8e8e8;
+  --bg-btn-secondary-hover: #363636;
+  --bg-btn-library-hover: rgba(0, 0, 0, 0.7);
   --bg-arrow-color: rgba(0, 0, 0, 0.7);
+  --btn-main-color: #000;
   --btn-subscribe-color: #a7a7a7;
-  --btm-login-color: #000;
+  --btn-border-color: #878787;
+  --btn-border-hover-color: #fff;
   /* BORDER RADIUS */
-  --main-border-radius: 8px;
+  --main-rounded: 8px;
+  --half-rounded: 50%;
+  --full-rounded: 9999px;
 }

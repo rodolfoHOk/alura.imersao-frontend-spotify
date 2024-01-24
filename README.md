@@ -47,6 +47,23 @@ Nesta aula, você vai:
 
 - Fazer a tag footer (brinque com o botão, faça o gradiente, etc) - Ok
 
+## Aula 3 - Layout Flexbox, Pseudo-Classes e Responsividade em CSS
+
+Nesta aula, você vai:
+- Estruturar melhor o projeto;
+- Refatorar o código;
+- Fazer o layout flexbox;
+- Aprender conceitos de responsividade;
+- Criar o menu superior.
+
+### Links da aula
+
+- [Variáveis](https://github.com/alura-cursos/spotify-imersao/blob/main/spotify-imersao/src/styles/vars.css)
+
+### Desafios da aula
+
+- Faça os cards de “Boa tarde” e “Navegar por todas as seções” - Ok
+
 ## Dicas
 
 - vs-code criar html básico: ! depois ENTER
