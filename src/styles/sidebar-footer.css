@@ -1,5 +1,6 @@
 body {
   background-color: #000;
+  font-family: var(--font-dm-sans);
 }
 
 .main-layout {
@@ -74,7 +75,6 @@ body {
   color: #b3b3b3;
   font-weight: 700;
   font-size: 16px;
-  font-family: "DM Sans", sans-serif;
   transition-duration: 200ms;
 }
 
@@ -112,7 +112,6 @@ body {
   color: #b3b3b3;
   font-size: 16px;
   font-weight: 600;
-  font-family: "DM Sans", sans-serif;
   text-decoration: none;
   text-transform: none;
   transition-duration: 200ms;
@@ -166,7 +165,6 @@ body {
 }
 
 .card__content .text {
-  font-family: "DM Sans", sans-serif;
   line-height: normal;
   color: #fff;
 }
@@ -190,7 +188,6 @@ body {
   align-items: center;
   font-size: 14px;
   font-weight: 700;
-  font-family: "DM Sans", sans-serif;
   text-decoration: none;
   text-transform: none;
   border: 0;
@@ -271,7 +268,6 @@ body {
   display: flex;
   align-items: center;
   gap: 4px;
-  font-family: "DM Sans", sans-serif;
   font-weight: bold;
   padding: 8px 16px;
   transition-duration: 200ms;
@@ -304,7 +300,6 @@ body {
 .footer__banner__content .text {
   color: #fff;
   line-height: normal;
-  font-family: "DM Sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
 }
@@ -319,7 +314,6 @@ body {
   align-items: center;
   justify-content: center;
   padding: 0 28px;
-  font-family: "DM Sans", sans-serif;
   font-size: 16px;
   font-weight: 700;
   border: 0;
