@@ -88,3 +88,5 @@ Nesta aula, você vai:
 
 - vs-code criar html básico: ! depois ENTER
 - vs-code criar ul com li's: ul>li*2 depois ENTER
+
+11:20
