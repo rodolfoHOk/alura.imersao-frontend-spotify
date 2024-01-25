@@ -79,6 +79,8 @@ Nesta aula, você vai:
 
 - [Node js](https://nodejs.org/en/download)
 
+- [json-server](https://www.npmjs.com/package/json-server)
+
 ### Desafios da aula
 
 - Teste fazer mais cards se baseie na página do Spotify e aprenda muito mais;
@@ -88,5 +90,7 @@ Nesta aula, você vai:
 
 - vs-code criar html básico: ! depois ENTER
 - vs-code criar ul com li's: ul>li*2 depois ENTER
+- npm install -g json-server
+- json-server --watch api-artists/artists.json --port 3000
 
-11:20
+30:00
