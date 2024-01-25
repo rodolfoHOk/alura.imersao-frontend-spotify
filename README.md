@@ -64,6 +64,26 @@ Nesta aula, você vai:
 
 - Faça os cards de “Boa tarde” e “Navegar por todas as seções” - Ok
 
+## Aula 4 - CSS Grid, Media Queries e Manipulação do DOM com Javascript
+
+Nesta aula, você vai:
+- Criar os cards da página inicial;
+- Aprender a usar o CSS Grid Layout;
+- Utilizar media queries para responsividade;
+- Instalar do Node.js;
+- Introduzir o JavaScript no projeto;
+- Utilizar o conceito DOM;
+- Conhecer o método Promises do JavaScript.
+
+### Links da aula
+
+- [Node js](https://nodejs.org/en/download)
+
+### Desafios da aula
+
+- Teste fazer mais cards se baseie na página do Spotify e aprenda muito mais;
+- Crie um arquivo API JSON diferente e explore mais.
+
 ## Dicas
 
 - vs-code criar html básico: ! depois ENTER
