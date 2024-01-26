@@ -17,3 +17,14 @@
   background-color: var(--bg-main);
   border-radius: var(--main-rounded);
 }
+
+
+@media screen and (max-width: 1198px) {
+  .main-layout {
+    grid-template-columns: 19.25rem 1fr;
+  }
+
+  .main-container {
+    max-width: calc(100vw - 19.25rem);
+  }
+}

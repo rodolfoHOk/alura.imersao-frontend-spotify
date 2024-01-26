@@ -42,3 +42,9 @@
   display: flex;
   padding: 1.5rem;
 }
+
+@media screen and (max-width: 1198px) {
+  .sidebar {
+    width: 18.75rem
+  }
+}

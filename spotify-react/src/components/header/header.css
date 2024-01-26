@@ -97,3 +97,16 @@
   background-color: var(--bg-btn-primary-hover);
   transform: scale(1.05);
 }
+
+@media screen and (max-width: 1198px) {
+  .header__navigation {
+    flex-direction: column-reverse;
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .header__search {
+    width: 100%;
+  }
+}

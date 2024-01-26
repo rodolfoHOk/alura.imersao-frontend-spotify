@@ -61,3 +61,52 @@
 #result-artist::-webkit-scrollbar-thumb {
   background-color: transparent;
 }
+
+@media screen and (max-width: 1670px) {
+  .offer__list-item {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .grid-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (max-width: 1434px) {
+  .offer__list-item {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .grid-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 1198px) {
+  .offer__list-item {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .offer__scroll-container {
+    max-height: calc(100vh - 30rem);
+  }
+
+  #result-artist {
+    max-height: calc(100vh - 23.75rem);
+  }
+
+}
+
+@media screen and (max-width: 844px) {
+  .offer__list-item {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}

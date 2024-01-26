@@ -7,7 +7,6 @@ import './styles/reset.css';
 import './styles/vars.css';
 import './styles/global.css';
 import './styles/main.css';
-import './styles/media-queries.css';
 import { ArtistModel } from './models/artist-model';
 
 interface AppProps {}
