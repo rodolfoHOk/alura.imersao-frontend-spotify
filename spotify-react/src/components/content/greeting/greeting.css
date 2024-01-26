@@ -1,0 +1,18 @@
+.playlist {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  margin: 24px;
+}
+
+.playlist #greeting {
+  color: var(--text-base-light);
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.playlist .session {
+  color: var(--text-base-light);
+  font-size: 24px;
+  font-weight: 700;
+}

@@ -1,0 +1,63 @@
+.playlist-container {
+  height: 68vh;
+  padding-top: 16px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: #121212;
+  color: var(--main-white);
+}
+
+.offer__scroll-container {
+  max-height: calc(100vh - 372px);
+  margin: 24px;
+  overflow-y: auto;
+}
+
+.offer__scroll-container::-webkit-scrollbar {
+  width: 1px;
+}
+
+.offer__scroll-container::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+.offer__list-item {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.offer__list-item img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: auto;
+  width: 107px;
+  transform: rotate(25deg) translate(18%, -2%);
+}
+
+.hidden {
+  display: none;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 24px;
+}
+
+#result-artist {
+  padding: 24px;
+  max-height: calc(100vh - 272px);
+  overflow-y: auto;
+}
+
+#result-artist::-webkit-scrollbar {
+  width: 1px;
+}
+
+#result-artist::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
