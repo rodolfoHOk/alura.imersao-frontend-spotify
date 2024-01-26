@@ -50,6 +50,7 @@ Nesta aula, você vai:
 ## Aula 3 - Layout Flexbox, Pseudo-Classes e Responsividade em CSS
 
 Nesta aula, você vai:
+
 - Estruturar melhor o projeto;
 - Refatorar o código;
 - Fazer o layout flexbox;
@@ -67,6 +68,7 @@ Nesta aula, você vai:
 ## Aula 4 - CSS Grid, Media Queries e Manipulação do DOM com Javascript
 
 Nesta aula, você vai:
+
 - Criar os cards da página inicial;
 - Aprender a usar o CSS Grid Layout;
 - Utilizar media queries para responsividade;
@@ -84,14 +86,35 @@ Nesta aula, você vai:
 ### Desafios da aula
 
 - Teste fazer mais cards se baseie na página do Spotify e aprenda muito mais - Ok
+
 - Crie um arquivo API JSON diferente e explore mais - Ok
+
+## Aula 5 - Frameworks e Eficiência: Introdução ao React e Angular
+
+Nesta aula, você vai:
+
+- Dar introdução a um projeto React;
+- Utilizar o framework React para criar o componente <Header>;
+- Aprender as diferenças entre Angular e React.
+
+### Links da aula
+
+- [Tutorial: React no Windows para iniciantes](https://learn.microsoft.com/pt-br/windows/dev-environment/javascript/react-beginners-tutorial)
+
+- [Using React in Visual Studio Code](https://code.visualstudio.com/docs/nodejs/reactjs-tutorial)
+
+### Desafios da aula
+
+- Fazer o resto do React.
 
 ## Json server
 
 - npm install -g json-server
+
 - json-server --watch api-artists/artists.json --port 3000
 
 ## Dicas
 
 - vs-code criar html básico: ! depois ENTER
+
 - vs-code criar ul com li's: ul>li*2 depois ENTER
