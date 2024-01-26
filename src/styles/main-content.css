@@ -110,7 +110,7 @@
   flex-direction: column;
   padding: 24px;
   gap: 24px;
-} */
+}
 
 .main-content .content__header {
   display: flex;
@@ -256,9 +256,7 @@
 }
 
 .artist {
-  --column-count: 5;
   --grid-gap: 24px;
-  --min-container-width: 372px;
 }
 
 .hidden {
@@ -266,10 +264,9 @@
 }
 
 .grid-container {
-  grid-gap: var(--grid-gap);
   display: grid;
-  grid-template-columns: repeat(var(--column-count), minmax(0, 1fr));
-  min-width: var(--min-container-width);
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: var(--grid-gap);
 }
 
 .artist-card {
@@ -283,9 +280,7 @@
   padding: 16px;
   position: relative;
   transition: background-color 0.3s ease;
-  width: 100%;
-  max-height: calc(100vh - 280px);
-  max-width: calc((100vh - 280px) - 56px);
+  width: calc(100% - 32px);
 }
 
 .artist-card:hover {
@@ -365,5 +360,5 @@
 }
 
 #result-artist {
-  padding: 20px 40px;
+  padding: 24px;
 }

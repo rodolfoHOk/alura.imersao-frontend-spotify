@@ -10,8 +10,8 @@ const resultPlaylists = document.getElementById('result-playlists');
 document.addEventListener('input', () => {
   const searchTerm = searchInput.value;
   if (searchTerm === '') {
-    resultPlaylists.classList.add('hidden');
-    resultArtist.classList.remove('hidden');
+    resultPlaylists.classList.remove('hidden');
+    resultArtist.classList.add('hidden');
     return;
   }
 

@@ -2,11 +2,19 @@
   .offer__list-item {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
+
+  .grid-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 @media screen and (max-width: 1434px) {
   .offer__list-item {
     grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .grid-container {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
@@ -28,22 +36,31 @@
     gap: 16px;
   }
 
+  .main-content {
+    padding: 16px;
+    gap: 16px;
+  }
+
   .offer__list-item {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .offer__scroll-container {
     max-height: calc(100vh - 480px);
   }
 
-  .artist-card {
-    max-height: calc(100vh - 390px);
-    max-width: calc((100vh - 390px) - 56px);
-  }
 }
 
 @media screen and (max-width: 844px) {
   .offer__list-item {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-container {
     grid-template-columns: 1fr;
   }
 }
