@@ -1,0 +1,14 @@
+body {
+  background-color: var(--main-black);
+  font-family: var(--font-dm-sans);
+}
+
+.main-layout {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 26.75rem 1fr;
+  grid-template-rows: 1fr 4.625rem;
+  row-gap: 0.5rem;
+  column-gap: 0.5rem;
+}

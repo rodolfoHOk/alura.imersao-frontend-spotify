@@ -20,25 +20,25 @@
 
 @media screen and (max-width: 1198px) {
   .main-layout {
-    grid-template-columns: 308px 1fr;
+    grid-template-columns: 19.25rem 1fr;
   }
 
   .sidebar {
-    width: 300px;
+    width: 18.75rem
   }
 
   .main-container {
-    max-width: calc(100vw - 308px);
+    max-width: calc(100vw - 19.25rem);
   }
 
   .header__navigation {
     flex-direction: column-reverse;
-    gap: 16px;
+    gap: 1rem;
   }
 
   .main-content {
-    padding: 16px;
-    gap: 16px;
+    padding: 1rem;
+    gap: 1rem;
   }
 
   .offer__list-item {
@@ -50,11 +50,11 @@
   }
 
   .offer__scroll-container {
-    max-height: calc(100vh - 480px);
+    max-height: calc(100vh - 30rem);
   }
 
   #result-artist {
-    max-height: calc(100vh - 380px);
+    max-height: calc(100vh - 23.75rem);
   }
 
 }
@@ -66,5 +66,11 @@
 
   .grid-container {
     grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .header__search {
+    width: 100%;
   }
 }
