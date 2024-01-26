@@ -86,11 +86,12 @@ Nesta aula, você vai:
 - Teste fazer mais cards se baseie na página do Spotify e aprenda muito mais;
 - Crie um arquivo API JSON diferente e explore mais.
 
+## Json server
+
+- npm install -g json-server
+- json-server --watch api-artists/artists.json --port 3000
+
 ## Dicas
 
 - vs-code criar html básico: ! depois ENTER
 - vs-code criar ul com li's: ul>li*2 depois ENTER
-- npm install -g json-server
-- json-server --watch api-artists/artists.json --port 3000
-
-30:00

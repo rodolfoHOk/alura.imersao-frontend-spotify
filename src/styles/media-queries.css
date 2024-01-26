@@ -35,6 +35,11 @@
   .offer__scroll-container {
     max-height: calc(100vh - 480px);
   }
+
+  .artist-card {
+    max-height: calc(100vh - 390px);
+    max-width: calc((100vh - 390px) - 56px);
+  }
 }
 
 @media screen and (max-width: 844px) {
