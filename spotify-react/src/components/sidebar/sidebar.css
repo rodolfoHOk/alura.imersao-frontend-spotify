@@ -1,0 +1,44 @@
+.sidebar {
+  margin: .5rem 0 0 .5rem;
+  grid-row-start: 1;
+  grid-column-start: 1;
+  width: 26.25rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.your-library {
+  margin-top: 0.5rem;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--bg-primary);
+  border-radius: var(--main-rounded);
+}
+
+.section-playlist {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.sidebar .cookies {
+  margin: 0 1.5rem;
+}
+
+.sidebar .cookies a {
+  color: var(--main-text-color);
+  font-weight: 500;
+  font-size: 0.75rem;
+  text-decoration: none;
+}
+
+.sidebar .cookies a:hover {
+  text-decoration: underline;
+}
+
+.sidebar .languages {
+  display: flex;
+  padding: 1.5rem;
+}

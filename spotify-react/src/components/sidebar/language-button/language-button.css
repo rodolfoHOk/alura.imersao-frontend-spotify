@@ -1,0 +1,22 @@
+.languages__button {
+  background-color: transparent;
+  border: 1px solid var(--btn-border-color);
+  border-radius: var(--full-rounded);
+  color: var(--main-white);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  transition-duration: 200ms;
+}
+
+.languages__button:hover {
+  border: 1px solid var(--btn-border-hover-color);
+  transform: scale(1.05);
+}
+
+.languages__button .fa {
+  font-size: 1rem;
+}
