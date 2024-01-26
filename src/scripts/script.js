@@ -1,57 +1,34 @@
+// PLAYLIST DROPDOWN
 function onClickDropDownButton() {
   document.getElementById('add_playlist_dropdown')
     .classList.toggle('show-dropdown-content');
 }
 
-const searchInput = document.getElementById('search-input');
-const resultArtist = document.getElementById('result-artist');
-const resultPlaylists = document.getElementById('result-playlists');
-const resultList = document.getElementById('result-list');
+// GREETINGS
+const greetingElement = document.getElementById("greeting");
 
-const baseArtistCard = document.getElementById('base-artist-card');
+const currentHour = new Date().getHours();
 
-document.addEventListener('input', () => {
-  const searchTerm = searchInput.value;
-  if (searchTerm === '') {
-    resultPlaylists.classList.remove('hidden');
-    resultArtist.classList.add('hidden');
-    return;
-  }
+const greetingMessage =
+  currentHour >= 5 && currentHour < 12
+    ? "Bom dia"
+    : currentHour >= 12 && currentHour < 18
+    ? "Boa tarde"
+    : "Boa noite";
 
-  requestApi(searchTerm);
-});
+greetingElement.textContent = greetingMessage;
 
-function requestApi(searchTerm) {
-  let url;
-  if (searchTerm.trim() === "todos") {
-    url = `http://localhost:3000/artists`;
-  } else {
-    url = `http://localhost:3000/artists?name=${searchTerm}`;
-  }
-  fetch(url)
-    .then(response => response.json())
-    .then(result => displayResults(result));
-}
+// GRID INTELIGENTE
+// const container = document.querySelector(".offer__list-item");
 
-function displayResults(result) {
-  resultPlaylists.classList.add('hidden');
-  const artistName = baseArtistCard.querySelector('#artist-name');
-  const artistImage = baseArtistCard.querySelector('#artist-img');
-  const artistCategory = baseArtistCard.querySelector('#artist-category');
-  
-  let index = 0;
-  result.forEach(element => {
-    artistName.innerText = element.name;
-    artistImage.src = element.urlImg;
-    artistCategory.innerText = element.genre;
-    const newCard = baseArtistCard;
-    if (index == 0) {
-      resultList.innerHTML = newCard.outerHTML;
-    } else {
-      resultList.innerHTML = resultList.innerHTML + newCard.outerHTML;
-    }
-    index++;
-  });
+// const observer = new ResizeObserver(() => {
+//   const containerWidth = container.offsetWidth;
+//   const numColumns = Math.floor(containerWidth / 200);
 
-  resultArtist.classList.remove("hidden");
-}
+//   container.style.gridTemplateColumns = `repeat(${numColumns}, minmax(200px, 1fr))`;
+
+//   console.log({ container });
+//   console.log({ numColumns });
+// });
+
+// observer.observe(container);
