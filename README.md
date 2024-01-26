@@ -124,3 +124,31 @@ Nesta aula, você vai:
 - vs-code criar html básico: ! depois ENTER
 
 - vs-code criar ul com li's: ul>li*2 depois ENTER
+
+## Images
+
+<img src="https://raw.githubusercontent.com/rodolfoHOk/portfolio-img/main/images/alura-spotify-01.png" alt="Alura Spotify 01" height="300"/>
+
+<img src="https://raw.githubusercontent.com/rodolfoHOk/portfolio-img/main/images/alura-spotify-02.png" alt="Alura Spotify 02" height="300"/>
+
+<img src="https://raw.githubusercontent.com/rodolfoHOk/portfolio-img/main/images/alura-spotify-03.png" alt="Alura Spotify 03" height="300"/>
+
+<img src="https://raw.githubusercontent.com/rodolfoHOk/portfolio-img/main/images/alura-spotify-04.png" alt="Alura Spotify 04" height="300"/>
+
+<img src="https://raw.githubusercontent.com/rodolfoHOk/portfolio-img/main/images/alura-spotify-05.png" alt="Alura Spotify 05" height="300"/>
+
+<img src="https://raw.githubusercontent.com/rodolfoHOk/portfolio-img/main/images/alura-spotify-06.png" alt="Alura Spotify 06" height="300"/>
+
+<img src="https://raw.githubusercontent.com/rodolfoHOk/portfolio-img/main/images/alura-spotify-07.png" alt="Alura Spotify 07" height="300"/>
+
+<img src="https://raw.githubusercontent.com/rodolfoHOk/portfolio-img/main/images/alura-spotify-08.png" alt="Alura Spotify 08" height="300"/>
+
+<img src="https://raw.githubusercontent.com/rodolfoHOk/portfolio-img/main/images/alura-spotify-09.png" alt="Alura Spotify 09" height="300"/>
+
+<img src="https://raw.githubusercontent.com/rodolfoHOk/portfolio-img/main/images/alura-spotify-10.png" alt="Alura Spotify 10" height="300"/>
+
+<img src="https://raw.githubusercontent.com/rodolfoHOk/portfolio-img/main/images/alura-spotify-11.png" alt="Alura Spotify 11" height="300"/>
+
+<img src="https://raw.githubusercontent.com/rodolfoHOk/portfolio-img/main/images/alura-spotify-12.png" alt="Alura Spotify 12" height="300"/>
+
+<img src="https://raw.githubusercontent.com/rodolfoHOk/portfolio-img/main/images/alura-spotify-13.png" alt="Alura Spotify 13" height="300"/>
