@@ -1,0 +1,19 @@
+.main-layout {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 26.75rem 1fr;
+  grid-template-rows: 1fr 4.625rem;
+  row-gap: 0.5rem;
+  column-gap: 0.5rem;
+}
+
+.main-container {
+  grid-row-start: 1;
+  grid-column-start: 2;
+  max-width: calc(100vw - 26.25rem);
+  height: calc(100vh - 5.625rem);
+  margin: 0.5rem 0.5rem 0 0;
+  background-color: var(--bg-main);
+  border-radius: var(--main-rounded);
+}
