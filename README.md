@@ -113,6 +113,12 @@ Nesta aula, você vai:
 
 - json-server --watch api-artists/artists.json --port 3000
 
+## React
+
+- npx create-react-app spotify-react
+
+- npx create-react-app spotify-react --template typescript
+
 ## Dicas
 
 - vs-code criar html básico: ! depois ENTER
