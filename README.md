@@ -105,7 +105,7 @@ Nesta aula, você vai:
 
 ### Desafios da aula
 
-- Fazer o resto do React.
+- Fazer o resto do React - Ok
 
 ## Json server
 
