@@ -255,10 +255,6 @@
   transform: rotate(25deg) translate(18%, -2%);
 }
 
-.artist {
-  --grid-gap: 24px;
-}
-
 .hidden {
   display: none;
 }
@@ -266,7 +262,7 @@
 .grid-container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-gap: var(--grid-gap);
+  grid-gap: 24px;
 }
 
 .artist-card {
@@ -361,4 +357,14 @@
 
 #result-artist {
   padding: 24px;
+  max-height: calc(100vh - 272px);
+  overflow-y: auto;
+}
+
+#result-artist::-webkit-scrollbar {
+  width: 1px;
+}
+
+#result-artist::-webkit-scrollbar-thumb {
+  background-color: transparent;
 }

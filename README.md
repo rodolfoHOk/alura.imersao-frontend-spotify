@@ -83,8 +83,8 @@ Nesta aula, você vai:
 
 ### Desafios da aula
 
-- Teste fazer mais cards se baseie na página do Spotify e aprenda muito mais;
-- Crie um arquivo API JSON diferente e explore mais.
+- Teste fazer mais cards se baseie na página do Spotify e aprenda muito mais - Ok
+- Crie um arquivo API JSON diferente e explore mais - Ok
 
 ## Json server
 
